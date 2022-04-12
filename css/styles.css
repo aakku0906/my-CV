@@ -1,0 +1,31 @@
+/* External/Global CSS - This will have 3rd most importannce for styling  */
+body {
+    background-color: rgb(225, 238, 225);
+  }
+
+  hr{
+    border-style: dotted none none none;           
+    width: 5%;
+    border-color: gray;
+    border-width: 5px;
+  }
+
+  h1{
+      color: #66BFBF;
+  }
+
+  h3{
+    color: #66BFBF;
+}
+
+.companyName{
+    color: rgb(49, 51, 53);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.companyName:hover {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-duration: 1s; 
+    color: gray;   
+  }
